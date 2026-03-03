@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+/* Charte graphique JENAFETINE 2026 */
+@theme {
+    --font-sans: 'Instrument Sans', 'Segoe UI', system-ui, sans-serif;
+    /* Couleurs officielles */
+    --color-jenafet-primary: #C41E3A;
+    --color-jenafet-primary-hover: #a0192f;
+    --color-jenafet-white: #FFFFFF;
+    --color-jenafet-gray-light: #F5F5F5;
+    --color-jenafet-text: #000000;
+    --color-jenafet-text-muted: #333333;
+}
